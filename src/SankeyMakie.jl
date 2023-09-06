@@ -407,7 +407,7 @@ function linkpoly(scene, xs, ys, lwidth)
                 @view(ys[2:end]),
             ))
 
-            corners = Makie.scene_to_screen(
+            corners = Makie.plot_to_screen(
                 Point2f[
                     (x0, y0 - lwidth/2),
                     (x1, y1 - lwidth/2),
